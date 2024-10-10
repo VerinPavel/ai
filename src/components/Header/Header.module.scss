@@ -1,0 +1,33 @@
+.header {
+    background-color: black;
+    background-image: url('../../assets/headerbg.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+        min-height: 20vh;
+      }
+}
+.h1 {
+    text-transform: uppercase;
+    font-size: 76px;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+        line-height: 76px;
+      }
+
+    @media (max-width: 390px) and (min-width: 0px) {
+        font-size: 62px;
+      }
+}
+.h2 {
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 700px;
+    font-size: 26px;
+}

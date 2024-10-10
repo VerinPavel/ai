@@ -1,0 +1,202 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.label {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
+}
+.labelText {
+    color: black;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 25px;
+    font-weight: 500;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+        font-size: 18px;
+        width: 80%;
+      }
+}
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+
+    h2 {
+        color: black;
+        margin: 0 auto;
+        width: 50%;
+        font-size: 35px;
+
+        @media (max-width: 780px) and (min-width: 0px) {
+            width: 90%;
+          }
+    }
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 50px;
+    padding-top: 2%;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+        gap: 15px;
+
+      }
+}
+
+.card {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 2px solid #045346;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+        width: 90%;
+      }
+}
+.cardTitle {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 25px;
+    height: 100px;
+    text-transform: uppercase;
+}
+.cardDesc {
+    color: black;
+    width: 90%;
+    font-size: 16px;
+    align-items: flex-start;
+    height: 95%;
+    padding-top: 10%;
+}
+.logoWhat {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+
+    
+
+    h2 {
+        color: black;
+        margin: 0 auto;
+        width: 50%;
+        font-size: 35px;
+
+        @media (max-width: 780px) and (min-width: 0px) {
+            width: 100%;
+          }
+    }
+}
+.whatFour {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 5%;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+       gap: 15px;
+       padding-top: 5%;
+      }
+}
+.element {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 2px solid #045346;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+       width: 90%;
+       }
+}
+.elementContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 125px;
+    text-align: center;
+    align-items: center;
+}
+.elementText {
+    color: black;
+    font-size: 16px;
+    width: 70%;
+
+    @media (max-width: 780px) and (min-width: 0px) {
+        width: 100%;
+       }
+}
+.desc {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.cardDescSecond {
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.descContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70px;
+    align-content: space-between;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+.descText {
+    color: black;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+}
+.btn {
+    background-color: transparent;
+    color: #045346;
+    border: 2px solid #045346;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-top: 20px;
+}
